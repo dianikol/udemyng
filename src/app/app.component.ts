@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  displayContent: number = 1;
+  loadedFeature = 'recipe';
 
-  showContent(data) {
-    this.displayContent = data.menuItem;
+  onNavigate(feature: string) {
+    this.loadedFeature = feature;
   }
 }

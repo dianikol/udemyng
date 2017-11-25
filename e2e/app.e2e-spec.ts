@@ -1,10 +1,10 @@
-import { RecipiesPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('recipies App', () => {
-  let page: RecipiesPage;
+describe('n5-complete-guide App', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new RecipiesPage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {
